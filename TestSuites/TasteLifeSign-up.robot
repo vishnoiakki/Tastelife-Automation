@@ -37,6 +37,5 @@ TC003-Tastelife Signup
     Click Element   class=jconfirm-closeIcon
     Click element   xpath=//div[@id='edit-field-subscription']/div/label
     click button   id=edit-submit
-    
-
+   
    
