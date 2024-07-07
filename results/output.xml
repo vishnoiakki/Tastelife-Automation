@@ -1,253 +1,131 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 7.0 (Python 3.12.3 on win32)" generated="2024-06-30T21:50:42.174737" rpa="false" schemaversion="5">
-<suite id="s1" name="Tastelife-Automation" source="D:\RobotFramework Automation\Tastelife-Automation">
-<suite id="s1-s1" name="TestSuites" source="D:\RobotFramework Automation\Tastelife-Automation\TestSuites">
-<suite id="s1-s1-s1" name="TasteLifeSign-up" source="D:\RobotFramework Automation\Tastelife-Automation\TestSuites\TasteLifeSign-up.robot">
-<test id="s1-s1-s1-t1" name="TC003-Tastelife Signup" line="9">
+<robot generator="Robot 7.0 (Python 3.12.3 on win32)" generated="2024-07-07T21:35:15.078445" rpa="false" schemaversion="5">
+<suite id="s1" name="Tastelife-Automation-1" source="C:\Users\akkumar\Desktop\Tastelife-Automation-1">
+<suite id="s1-s1" name="TestSuites" source="C:\Users\akkumar\Desktop\Tastelife-Automation-1\TestSuites">
+<suite id="s1-s1-s1" name="Login-FirstTime-NewUser" source="C:\Users\akkumar\Desktop\Tastelife-Automation-1\TestSuites\Login-FirstTime-NewUser.robot">
+<test id="s1-s1-s1-t1" name="Dummy-Testcase" line="20">
 <kw name="Open Browser" owner="SeleniumLibrary">
-<msg time="2024-06-30T21:50:42.562841" level="INFO">Opening browser 'Chrome' to base url 'https://uat.tastelifelivelife.com/'.</msg>
-<arg>${URL}</arg>
+<msg time="2024-07-07T21:35:15.314494" level="INFO">Opening browser 'Chrome' to base url 'https://designsystem.digital.gov/components/radio-buttons/'.</msg>
+<arg>https://designsystem.digital.gov/components/radio-buttons/</arg>
 <arg>${Browser}</arg>
 <doc>Opens a new browser instance to the optional ``url``.</doc>
-<status status="PASS" start="2024-06-30T21:50:42.562841" elapsed="3.473587"/>
+<status status="PASS" start="2024-07-07T21:35:15.314494" elapsed="7.274384"/>
 </kw>
 <kw name="Maximize Browser Window" owner="SeleniumLibrary">
-<msg time="2024-06-30T21:50:46.048143" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: Message: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=126.0.6478.127)
-Stacktrace:
-	GetHandleVerifier [0x00007FF66141EEA2+31554]
-	(No symbol) [0x00007FF661397ED9]
-	(No symbol) [0x00007FF66125872A]
-	(No symbol) [0x00007FF66122D995]
-	(No symbol) [0x00007FF6612D44D7]
-	(No symbol) [0x00007FF6612EC051]
-	(No symbol) [0x00007FF6612CCDD3]
-	(No symbol) [0x00007FF66129A33B]
-	(No symbol) [0x00007FF66129AED1]
-	GetHandleVerifier [0x00007FF661728B1D+3217341]
-	GetHandleVerifier [0x00007FF661775AE3+3532675]
-	GetHandleVerifier [0x00007FF66176B0E0+3489152]
-	GetHandleVerifier [0x00007FF6614CE776+750614]
-	(No symbol) [0x00007FF6613A375F]
-	(No symbol) [0x00007FF66139EB14]
-	(No symbol) [0x00007FF66139ECA2]
-	(No symbol) [0x00007FF66138E16F]
-	BaseThreadInitThunk [0x00007FFDB67A26AD+29]
-	RtlUserThreadStart [0x00007FFDB746A9F8+40]
-</msg>
-<msg time="2024-06-30T21:50:46.054776" level="FAIL">NoSuchWindowException: Message: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=126.0.6478.127)
-Stacktrace:
-	GetHandleVerifier [0x00007FF66141EEA2+31554]
-	(No symbol) [0x00007FF661397ED9]
-	(No symbol) [0x00007FF66125872A]
-	(No symbol) [0x00007FF66122D995]
-	(No symbol) [0x00007FF6612D44D7]
-	(No symbol) [0x00007FF6612EC051]
-	(No symbol) [0x00007FF6612CCDD3]
-	(No symbol) [0x00007FF66129A33B]
-	(No symbol) [0x00007FF66129AED1]
-	GetHandleVerifier [0x00007FF661728B1D+3217341]
-	GetHandleVerifier [0x00007FF661775AE3+3532675]
-	GetHandleVerifier [0x00007FF66176B0E0+3489152]
-	GetHandleVerifier [0x00007FF6614CE776+750614]
-	(No symbol) [0x00007FF6613A375F]
-	(No symbol) [0x00007FF66139EB14]
-	(No symbol) [0x00007FF66139ECA2]
-	(No symbol) [0x00007FF66138E16F]
-	BaseThreadInitThunk [0x00007FFDB67A26AD+29]
-	RtlUserThreadStart [0x00007FFDB746A9F8+40]
-</msg>
 <doc>Maximizes current browser window.</doc>
-<status status="FAIL" start="2024-06-30T21:50:46.036428" elapsed="0.036126">NoSuchWindowException: Message: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=126.0.6478.127)
-Stacktrace:
-	GetHandleVerifier [0x00007FF66141EEA2+31554]
-	(No symbol) [0x00007FF661397ED9]
-	(No symbol) [0x00007FF66125872A]
-	(No symbol) [0x00007FF66122D995]
-	(No symbol) [0x00007FF6612D44D7]
-	(No symbol) [0x00007FF6612EC051]
-	(No symbol) [0x00007FF6612CCDD3]
-	(No symbol) [0x00007FF66129A33B]
-	(No symbol) [0x00007FF66129AED1]
-	GetHandleVerifier [0x00007FF661728B1D+3217341]
-	GetHandleVerifier [0x00007FF661775AE3+3532675]
-	GetHandleVerifier [0x00007FF66176B0E0+3489152]
-	GetHandleVerifier [0x00007FF6614CE776+750614]
-	(No symbol) [0x00007FF6613A375F]
-	(No symbol) [0x00007FF66139EB14]
-	(No symbol) [0x00007FF66139ECA2]
-	(No symbol) [0x00007FF66138E16F]
-	BaseThreadInitThunk [0x00007FFDB67A26AD+29]
-	RtlUserThreadStart [0x00007FFDB746A9F8+40]
-</status>
+<status status="PASS" start="2024-07-07T21:35:22.589736" elapsed="0.041475"/>
 </kw>
-<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
-<arg>xpath=//li[@data-id='3171']</arg>
-<doc>Waits until the element ``locator`` is visible.</doc>
-<status status="NOT RUN" start="2024-06-30T21:50:46.075554" elapsed="0.000000"/>
-</kw>
-<kw name="Click Link" owner="SeleniumLibrary">
-<arg>link=SIGN UP / LOGIN</arg>
-<doc>Clicks a link identified by ``locator``.</doc>
-<status status="NOT RUN" start="2024-06-30T21:50:46.079036" elapsed="0.000000"/>
-</kw>
-<kw name="Click Element" owner="SeleniumLibrary">
-<arg>xpath://div[@class='signup']</arg>
-<doc>Click the element identified by ``locator``.</doc>
-<status status="NOT RUN" start="2024-06-30T21:50:46.079036" elapsed="0.009195"/>
-</kw>
-<kw name="Input Text" owner="SeleniumLibrary">
-<arg>//input[@id='edit-field-first-name-und-0-value']</arg>
-<arg>Akhlesh</arg>
-<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<status status="NOT RUN" start="2024-06-30T21:50:46.088231" elapsed="0.000000"/>
-</kw>
-<kw name="Input Text" owner="SeleniumLibrary">
-<arg>//input[@id='edit-field-middle-name-und-0-value']</arg>
-<arg>kumar</arg>
-<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<status status="NOT RUN" start="2024-06-30T21:50:46.088231" elapsed="0.000000"/>
-</kw>
-<kw name="Input Text" owner="SeleniumLibrary">
-<arg>//input[@id='edit-field-last-name-und-0-value']</arg>
-<arg>Vishnoi</arg>
-<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<status status="NOT RUN" start="2024-06-30T21:50:46.088231" elapsed="0.000000"/>
-</kw>
-<kw name="Input Text" owner="SeleniumLibrary">
-<arg>//input[@id='edit-mail']</arg>
-<arg>akhleshvishnoi</arg>
-<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<status status="NOT RUN" start="2024-06-30T21:50:46.088231" elapsed="0.000000"/>
-</kw>
-<kw name="Input Text" owner="SeleniumLibrary">
-<arg>id=edit-mail</arg>
-<arg>Vishnoiakhlesh@gmail.com</arg>
-<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<status status="NOT RUN" start="2024-06-30T21:50:46.097070" elapsed="0.001020"/>
-</kw>
-<kw name="Input Text" owner="SeleniumLibrary">
-<arg>//input[@id='edit-field-mobile-und-0-value']</arg>
-<arg>7989878998</arg>
-<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<status status="NOT RUN" start="2024-06-30T21:50:46.103823" elapsed="0.000000"/>
-</kw>
-<kw name="Select From List By Label" owner="SeleniumLibrary">
-<arg>xpath=//select[@id='edit-field-user-age-range-und']</arg>
-<arg>18-30</arg>
-<doc>Selects options from selection list ``locator`` by ``labels``.</doc>
-<status status="NOT RUN" start="2024-06-30T21:50:46.106076" elapsed="0.001009"/>
-</kw>
-<kw name="Select From List By Label" owner="SeleniumLibrary">
-<arg>//select[@id='edit-field-gender-und']</arg>
-<arg>Male</arg>
-<doc>Selects options from selection list ``locator`` by ``labels``.</doc>
-<status status="NOT RUN" start="2024-06-30T21:50:46.108085" elapsed="0.001016"/>
-</kw>
-<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
-<arg>xpath=//div[@id='edit_field_user_site_und_chosen']</arg>
-<doc>Waits until the element ``locator`` is visible.</doc>
-<status status="NOT RUN" start="2024-06-30T21:50:46.110112" elapsed="0.000999"/>
-</kw>
-<kw name="Click Element" owner="SeleniumLibrary">
-<arg>id=edit_field_user_site_und_chosen</arg>
-<doc>Click the element identified by ``locator``.</doc>
-<status status="NOT RUN" start="2024-06-30T21:50:46.112301" elapsed="0.000000"/>
-</kw>
-<kw name="Click Element" owner="SeleniumLibrary">
-<arg>xpath=//div[@id='edit_field_user_site_und_chosen']/div/div/input</arg>
-<doc>Click the element identified by ``locator``.</doc>
-<status status="NOT RUN" start="2024-06-30T21:50:46.113311" elapsed="0.000000"/>
-</kw>
-<kw name="Input Text" owner="SeleniumLibrary">
-<arg>xpath=//div[@id='edit_field_user_site_und_chosen']/div/div/input</arg>
-<arg>Ball</arg>
-<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<status status="NOT RUN" start="2024-06-30T21:50:46.114310" elapsed="0.000000"/>
-</kw>
-<kw name="Click Element" owner="SeleniumLibrary">
-<arg>xpath=//div[@id='edit_field_user_site_und_chosen']/div/ul/li</arg>
-<doc>Click the element identified by ``locator``.</doc>
-<status status="NOT RUN" start="2024-06-30T21:50:46.116319" elapsed="0.000000"/>
+<kw name="Page Should Contain Radio Button" owner="SeleniumLibrary">
+<msg time="2024-07-07T21:35:22.682490" level="INFO">Current page contains radio button 'id=historical-washington'.</msg>
+<arg>id=historical-washington</arg>
+<doc>Verifies radio button ``locator`` is found from current page.</doc>
+<status status="PASS" start="2024-07-07T21:35:22.631211" elapsed="0.051279"/>
 </kw>
 <kw name="Sleep" owner="BuiltIn">
+<msg time="2024-07-07T21:35:25.686310" level="INFO">Slept 3 seconds.</msg>
 <arg>3s</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<status status="NOT RUN" start="2024-06-30T21:50:46.119649" elapsed="0.000000"/>
+<status status="PASS" start="2024-07-07T21:35:22.684488" elapsed="3.002883"/>
 </kw>
-<kw name="Select From List By Label" owner="SeleniumLibrary">
-<arg>field_company_name[und]</arg>
-<arg>ESS</arg>
-<doc>Selects options from selection list ``locator`` by ``labels``.</doc>
-<status status="NOT RUN" start="2024-06-30T21:50:46.120652" elapsed="0.000000"/>
+<kw name="Execute Javascript" owner="SeleniumLibrary">
+<msg time="2024-07-07T21:35:25.688907" level="INFO">Executing JavaScript:
+document.getElementById('historical-carver').removeAttribute('disabled')
+Without any arguments.</msg>
+<arg>document.getElementById('historical-carver').removeAttribute('disabled')</arg>
+<doc>Executes the given JavaScript code with possible arguments.</doc>
+<status status="PASS" start="2024-07-07T21:35:25.688907" elapsed="0.015382"/>
 </kw>
-<kw name="Click Element" owner="SeleniumLibrary">
-<arg>xpath=//div[@id='edit-field-terms-and-condition']/div/label/span</arg>
-<doc>Click the element identified by ``locator``.</doc>
-<status status="NOT RUN" start="2024-06-30T21:50:46.120652" elapsed="0.001495"/>
-</kw>
-<kw name="Page Should Contain" owner="SeleniumLibrary">
-<arg>PLEASE READ THE FOLLOWING TERMS AND CONDITIONS CAREFULLY.</arg>
-<arg>BY ACCESSING AND USING THIS SITE, YOU ACKNOWLEDGE THAT YOU HAVE READ THESE TERMS AND CONDITIONS AND THAT YOU ACCEPT AND WILL BE BOUND BY THEM.</arg>
-<doc>Verifies that current page contains ``text``.</doc>
-<status status="NOT RUN" start="2024-06-30T21:50:46.122147" elapsed="0.000000"/>
-</kw>
-<kw name="Sleep" owner="BuiltIn">
-<arg>2s</arg>
-<doc>Pauses the test executed for the given time.</doc>
-<status status="NOT RUN" start="2024-06-30T21:50:46.123428" elapsed="0.000000"/>
-</kw>
-<kw name="Click Element" owner="SeleniumLibrary">
-<arg>class=jconfirm-closeIcon</arg>
-<doc>Click the element identified by ``locator``.</doc>
-<status status="NOT RUN" start="2024-06-30T21:50:46.123428" elapsed="0.001474"/>
-</kw>
-<kw name="Click Element" owner="SeleniumLibrary">
-<arg>xpath=//div[@id='edit-field-subscription']/div/label</arg>
-<doc>Click the element identified by ``locator``.</doc>
-<status status="NOT RUN" start="2024-06-30T21:50:46.125410" elapsed="0.001009"/>
-</kw>
-<kw name="Click Button" owner="SeleniumLibrary">
-<arg>id=edit-submit</arg>
-<doc>Clicks the button identified by ``locator``.</doc>
-<status status="NOT RUN" start="2024-06-30T21:50:46.126419" elapsed="0.000998"/>
-</kw>
-<doc>This test case is to verify the Tastelife signup functionality</doc>
-<status status="FAIL" start="2024-06-30T21:50:42.562841" elapsed="3.565721">NoSuchWindowException: Message: no such window: target window already closed
-from unknown error: web view not found
+<kw name="Select Radio Button" owner="SeleniumLibrary">
+<msg time="2024-07-07T21:35:25.705287" level="INFO">Selecting 'george-washington-carver' from radio button 'historical-figures'.</msg>
+<msg time="2024-07-07T21:35:25.860725" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-27.png"&gt;&lt;img src="selenium-screenshot-27.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg time="2024-07-07T21:35:25.860725" level="FAIL">ElementNotInteractableException: Message: element not interactable
   (Session info: chrome=126.0.6478.127)
 Stacktrace:
-	GetHandleVerifier [0x00007FF66141EEA2+31554]
-	(No symbol) [0x00007FF661397ED9]
-	(No symbol) [0x00007FF66125872A]
-	(No symbol) [0x00007FF66122D995]
-	(No symbol) [0x00007FF6612D44D7]
-	(No symbol) [0x00007FF6612EC051]
-	(No symbol) [0x00007FF6612CCDD3]
-	(No symbol) [0x00007FF66129A33B]
-	(No symbol) [0x00007FF66129AED1]
-	GetHandleVerifier [0x00007FF661728B1D+3217341]
-	GetHandleVerifier [0x00007FF661775AE3+3532675]
-	GetHandleVerifier [0x00007FF66176B0E0+3489152]
-	GetHandleVerifier [0x00007FF6614CE776+750614]
-	(No symbol) [0x00007FF6613A375F]
-	(No symbol) [0x00007FF66139EB14]
-	(No symbol) [0x00007FF66139ECA2]
-	(No symbol) [0x00007FF66138E16F]
-	BaseThreadInitThunk [0x00007FFDB67A26AD+29]
-	RtlUserThreadStart [0x00007FFDB746A9F8+40]
+	GetHandleVerifier [0x00007FF78511EEA2+31554]
+	(No symbol) [0x00007FF785097ED9]
+	(No symbol) [0x00007FF784F58559]
+	(No symbol) [0x00007FF784FA97C2]
+	(No symbol) [0x00007FF784F9C151]
+	(No symbol) [0x00007FF784FCD02A]
+	(No symbol) [0x00007FF784F9BA76]
+	(No symbol) [0x00007FF784FCD240]
+	(No symbol) [0x00007FF784FEC977]
+	(No symbol) [0x00007FF784FCCDD3]
+	(No symbol) [0x00007FF784F9A33B]
+	(No symbol) [0x00007FF784F9AED1]
+	GetHandleVerifier [0x00007FF785428B1D+3217341]
+	GetHandleVerifier [0x00007FF785475AE3+3532675]
+	GetHandleVerifier [0x00007FF78546B0E0+3489152]
+	GetHandleVerifier [0x00007FF7851CE776+750614]
+	(No symbol) [0x00007FF7850A375F]
+	(No symbol) [0x00007FF78509EB14]
+	(No symbol) [0x00007FF78509ECA2]
+	(No symbol) [0x00007FF78508E16F]
+	BaseThreadInitThunk [0x00007FF9D1A626AD+29]
+	RtlUserThreadStart [0x00007FF9D320A9F8+40]
+</msg>
+<arg>historical-figures</arg>
+<arg>value=george-washington-carver</arg>
+<doc>Sets the radio button group ``group_name`` to ``value``.</doc>
+<status status="FAIL" start="2024-07-07T21:35:25.704289" elapsed="0.166310">ElementNotInteractableException: Message: element not interactable
+  (Session info: chrome=126.0.6478.127)
+Stacktrace:
+	GetHandleVerifier [0x00007FF78511EEA2+31554]
+	(No symbol) [0x00007FF785097ED9]
+	(No symbol) [0x00007FF784F58559]
+	(No symbol) [0x00007FF784FA97C2]
+	(No symbol) [0x00007FF784F9C151]
+	(No symbol) [0x00007FF784FCD02A]
+	(No symbol) [0x00007FF784F9BA76]
+	(No symbol) [0x00007FF784FCD240]
+	(No symbol) [0x00007FF784FEC977]
+	(No symbol) [0x00007FF784FCCDD3]
+	(No symbol) [0x00007FF784F9A33B]
+	(No symbol) [0x00007FF784F9AED1]
+	GetHandleVerifier [0x00007FF785428B1D+3217341]
+	GetHandleVerifier [0x00007FF785475AE3+3532675]
+	GetHandleVerifier [0x00007FF78546B0E0+3489152]
+	GetHandleVerifier [0x00007FF7851CE776+750614]
+	(No symbol) [0x00007FF7850A375F]
+	(No symbol) [0x00007FF78509EB14]
+	(No symbol) [0x00007FF78509ECA2]
+	(No symbol) [0x00007FF78508E16F]
+	BaseThreadInitThunk [0x00007FF9D1A626AD+29]
+	RtlUserThreadStart [0x00007FF9D320A9F8+40]
+</status>
+</kw>
+<status status="FAIL" start="2024-07-07T21:35:15.314494" elapsed="10.557348">ElementNotInteractableException: Message: element not interactable
+  (Session info: chrome=126.0.6478.127)
+Stacktrace:
+	GetHandleVerifier [0x00007FF78511EEA2+31554]
+	(No symbol) [0x00007FF785097ED9]
+	(No symbol) [0x00007FF784F58559]
+	(No symbol) [0x00007FF784FA97C2]
+	(No symbol) [0x00007FF784F9C151]
+	(No symbol) [0x00007FF784FCD02A]
+	(No symbol) [0x00007FF784F9BA76]
+	(No symbol) [0x00007FF784FCD240]
+	(No symbol) [0x00007FF784FEC977]
+	(No symbol) [0x00007FF784FCCDD3]
+	(No symbol) [0x00007FF784F9A33B]
+	(No symbol) [0x00007FF784F9AED1]
+	GetHandleVerifier [0x00007FF785428B1D+3217341]
+	GetHandleVerifier [0x00007FF785475AE3+3532675]
+	GetHandleVerifier [0x00007FF78546B0E0+3489152]
+	GetHandleVerifier [0x00007FF7851CE776+750614]
+	(No symbol) [0x00007FF7850A375F]
+	(No symbol) [0x00007FF78509EB14]
+	(No symbol) [0x00007FF78509ECA2]
+	(No symbol) [0x00007FF78508E16F]
+	BaseThreadInitThunk [0x00007FF9D1A626AD+29]
+	RtlUserThreadStart [0x00007FF9D320A9F8+40]
 </status>
 </test>
-<status status="FAIL" start="2024-06-30T21:50:42.213508" elapsed="3.920593"/>
+<status status="FAIL" start="2024-07-07T21:35:15.108124" elapsed="10.763718"/>
 </suite>
-<status status="FAIL" start="2024-06-30T21:50:42.213508" elapsed="3.924505"/>
+<status status="FAIL" start="2024-07-07T21:35:15.094114" elapsed="10.777728"/>
 </suite>
-<status status="FAIL" start="2024-06-30T21:50:42.185779" elapsed="3.952234"/>
+<status status="FAIL" start="2024-07-07T21:35:15.080103" elapsed="10.791739"/>
 </suite>
 <statistics>
 <total>
@@ -256,35 +134,11 @@ Stacktrace:
 <tag>
 </tag>
 <suite>
-<stat pass="0" fail="1" skip="0" id="s1" name="Tastelife-Automation">Tastelife-Automation</stat>
-<stat pass="0" fail="1" skip="0" id="s1-s1" name="TestSuites">Tastelife-Automation.TestSuites</stat>
-<stat pass="0" fail="1" skip="0" id="s1-s1-s1" name="TasteLifeSign-up">Tastelife-Automation.TestSuites.TasteLifeSign-up</stat>
+<stat pass="0" fail="1" skip="0" id="s1" name="Tastelife-Automation-1">Tastelife-Automation-1</stat>
+<stat pass="0" fail="1" skip="0" id="s1-s1" name="TestSuites">Tastelife-Automation-1.TestSuites</stat>
+<stat pass="0" fail="1" skip="0" id="s1-s1-s1" name="Login-FirstTime-NewUser">Tastelife-Automation-1.TestSuites.Login-FirstTime-NewUser</stat>
 </suite>
 </statistics>
 <errors>
-<msg time="2024-06-30T21:50:46.048143" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: Message: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=126.0.6478.127)
-Stacktrace:
-	GetHandleVerifier [0x00007FF66141EEA2+31554]
-	(No symbol) [0x00007FF661397ED9]
-	(No symbol) [0x00007FF66125872A]
-	(No symbol) [0x00007FF66122D995]
-	(No symbol) [0x00007FF6612D44D7]
-	(No symbol) [0x00007FF6612EC051]
-	(No symbol) [0x00007FF6612CCDD3]
-	(No symbol) [0x00007FF66129A33B]
-	(No symbol) [0x00007FF66129AED1]
-	GetHandleVerifier [0x00007FF661728B1D+3217341]
-	GetHandleVerifier [0x00007FF661775AE3+3532675]
-	GetHandleVerifier [0x00007FF66176B0E0+3489152]
-	GetHandleVerifier [0x00007FF6614CE776+750614]
-	(No symbol) [0x00007FF6613A375F]
-	(No symbol) [0x00007FF66139EB14]
-	(No symbol) [0x00007FF66139ECA2]
-	(No symbol) [0x00007FF66138E16F]
-	BaseThreadInitThunk [0x00007FFDB67A26AD+29]
-	RtlUserThreadStart [0x00007FFDB746A9F8+40]
-</msg>
 </errors>
 </robot>
