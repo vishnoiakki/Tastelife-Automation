@@ -15,8 +15,3 @@ Tastelife-Login-NegativeCase
    Login-Negative-Credentials
    Wait Until Page Contains  Sorry, unrecognized username or password. Have you forgotten your password?  ${TIMEOUT}  
    [Teardown]    Log Test Result
-   
-
-
-
-
