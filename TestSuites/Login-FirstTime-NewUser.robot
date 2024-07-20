@@ -9,11 +9,10 @@ Tastelife-Login-PositiveCase
    Wait Until Element Is Visible   xpath=//li[@data-id='3171']
    Click Link   link=SIGN UP / LOGIN
    Click Element  xpath=//div[@class='login']
-   Input Text   id=edit-name   subhash@gmail.com
-   Input Password  id=edit-pass  Q3tech@123
+   Input Text   id=edit-name   ABCD@test.com
+   Input Password  id=edit-pass  Ak@123456
    Click Button   id=edit-submit
    Wait Until Page Contains   Please complete your signup induction
    Page Should Contain Radio Button   //input[@name='q1']
-   Select Radio Button    for=edit-q1-1   1
-   Click Element   //label[@for='edit-q1-1']
-   
+   Click Element   xpath=(//label[@class='option'])[1]
+   Click element   xpath=//label[@for='edit-q2-0']

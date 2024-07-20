@@ -19,8 +19,8 @@ TC003-Tastelife Signup
     input text  //input[@id='edit-field-middle-name-und-0-value']    kumar
     input text  //input[@id='edit-field-last-name-und-0-value']      Vishnoi
     input text  //input[@id='edit-mail']     akhleshvishnoi
-    input text   id=edit-mail     Vishnoiakhlesh@gmail.com
-    input text   //input[@id='edit-field-mobile-und-0-value']     7989878998
+    input text   id=edit-mail     ABCD@test.com
+    input text   //input[@id='edit-field-mobile-und-0-value']     53454343543543
     Select From List By Label  xpath=//select[@id='edit-field-user-age-range-und']   18-30
     Select From List By label    //select[@id='edit-field-gender-und']   Male
     Wait Until Element Is Visible  xpath=//div[@id='edit_field_user_site_und_chosen'] 
