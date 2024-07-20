@@ -15,4 +15,5 @@ Tastelife-Login-PositiveCase
    Wait Until Page Contains   Please complete your signup induction
    Page Should Contain Radio Button   //input[@name='q1']
    Select Radio Button    for=edit-q1-1   1
-   #Click Element   //label[@for='edit-q1-1']
+   Click Element   //label[@for='edit-q1-1']
+   
